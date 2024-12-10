@@ -1,0 +1,45 @@
+{
+  "id": "7a48eeea-45e9-4e3e-81bf-24940eab23df",
+  "name": "CloudMigrationExtension",
+  "publisher": "Inventio.IT",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "58623bfa-0559-4bc2-ae1c-0979c29fd9e0",
+      "name": "Intelligent Cloud Base",
+      "publisher": "Microsoft",
+      "version": "24.5.0.0"
+    },
+    {
+      "id":"334ef79e-547e-4631-8ba1-7a7f18e14de6",
+      "name": "Business Central Intelligent Cloud",
+      "publisher": "Microsoft",
+      "version": "24.5.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "24.5.0.0",
+  "idRanges": [
+    {
+      "from": 50200,
+      "to": 50249
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "13.1",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
